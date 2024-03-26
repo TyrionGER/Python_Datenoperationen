@@ -2,10 +2,10 @@ import numpy
 import matplotlib.pyplot as plt
 
 def randomarray():
-    array = numpy.random.uniform(0.0, 5.0, 250)
-    return array
+    arrayX = numpy.random.uniform(0.0, 5.0, 250)
+    return arrayX
 
-array = randomarray()
+arrayX = randomarray()
 
-plt.hist(array)
+plt.hist(arrayX)
 plt.show()
